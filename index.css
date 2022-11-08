@@ -4,3 +4,11 @@ body {
 img {
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  div {
+    display: grid;
+    grid: auto / repeat(3, 1fr);
+    grid-gap: 2em;
+  }
+}
